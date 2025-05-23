@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Create user Account</title>
+<link rel="stylesheet" href="css/create.css">
 </head>
 <body>
 	<div class="create-container">

@@ -40,14 +40,13 @@ public class Login extends HttpServlet{
 						
 						if(accountrs.next()) {
 							req.setAttribute("accountid", accountrs.getInt("account_id"));
-							RequestDispatcher rd = req.getRequestDispatcher("profile.jsp");
+							RequestDispatcher rd = req.getRequestDispatcher("profile");
 							rd.forward(req, res);
 						}
 						else {
 							req.setAttribute("userid", user_id);
 							RequestDispatcher rd = req.getRequestDispatcher("setprofile.jsp");
 							rd.forward(req, res);
-							
 						}
 					}
 				}

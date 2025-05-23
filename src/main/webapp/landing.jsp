@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Landing page</title>
+<link rel="stylesheet" href="css/landing.css">
 </head>
 <body>
 	<h1>Welcome to BAMS system</h1>

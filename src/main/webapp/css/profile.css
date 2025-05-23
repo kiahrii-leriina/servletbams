@@ -1,0 +1,47 @@
+body {
+  font-family: Consolas, monospace;
+  background-color: #0f111a;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-container {
+  background-color: #1c1e2a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #222;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #eceff1;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #263238;
+}
+
+th {
+  color: #64b5f6;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #2a2d3e;
+}
+
+tr:hover {
+  background-color: #37474f;
+}

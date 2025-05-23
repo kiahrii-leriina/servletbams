@@ -1,0 +1,76 @@
+/* Minimal Developer-Style CSS for your BAMS landing page */
+
+body {
+  background-color: #121212;        /* Dark background, easy on eyes */
+  color: #c5c6c7;                   /* Light gray text */
+  font-family: "Consolas", "Courier New", monospace;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #66fcf1;                  /* Bright cyan-ish highlight */
+  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  background-color: #0b0c10;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #45a29e55;
+  user-select: none;
+}
+
+.container label {
+  color: #66fcf1;
+  font-size: 1rem;
+}
+
+button {
+  background: transparent;
+  border: 2px solid #45a29e;
+  color: #45a29e;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover, button:focus {
+  background-color: #45a29e;
+  color: #0b0c10;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  button {
+    width: 100%;
+  }
+}

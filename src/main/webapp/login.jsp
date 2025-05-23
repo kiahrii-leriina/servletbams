@@ -6,12 +6,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Login page</title>
+<link rel="stylesheet" href="css/login.css">
 </head>
 <body>
 	<h1>${msg }</h1>
 	<div>
-		<form action="login">
+		<form action="login" method="get">
 			<label for="email">Email:</label>
 			<input id="name" name="email" required="required">
 			<label for="password">Password:</label>
