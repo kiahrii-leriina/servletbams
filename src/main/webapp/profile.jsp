@@ -31,6 +31,8 @@
 							
 			</tbody>
 		</table>
+		
+       <a href="getstarted.jsp?accountid=<%=rs.getInt("account_id")%>">Get started</a>
 	</div>
 </body>
 </html>

@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +15,8 @@
 	%>
 	<h1>Add Account</h1>
 	<div class="account-container">
+	
+		
 		<form action="deposit" method="post">
 			<input type="hidden" name="userid" value="<%= userId %>">
 			
