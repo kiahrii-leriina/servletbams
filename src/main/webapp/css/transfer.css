@@ -1,0 +1,86 @@
+body {
+  font-family: Consolas, monospace;
+  background-color: #0f111a;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container h1 {
+  color: #64b5f6;         
+  font-size: 1.5rem;     
+  font-weight: 600;
+  font-family: Consolas, monospace;
+  margin-bottom: 1.5rem;  
+  text-align: center;     
+  user-select: none;      
+}
+
+.container {
+  background-color: #1c1e2a;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #000;
+  width: 100%;
+  max-width: 450px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+label {
+  color: #64b5f6;
+  font-size: 1rem;
+}
+
+input {
+  background-color: #263238;
+  border: 1px solid #64b5f6;
+  color: #e0e0e0;
+  padding: 0.6rem;
+  border-radius: 6px;
+  font-family: Consolas, monospace;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #90caf9;
+  box-shadow: 0 0 5px #64b5f6;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+button {
+  background-color: #263238;
+  color: #64b5f6;
+  font-size: 1rem;
+  font-family: Consolas, monospace;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid #64b5f6;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 0 5px #64b5f6;
+}
+
+button:hover {
+  background-color: #37474f;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #64b5f6;
+}
+
+a {
+  text-decoration: none;
+}
